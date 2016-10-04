@@ -1,0 +1,26 @@
+{
+  "name": "SP-Examples",
+  "version": "0.0.1",
+  "description": "Content for the CSS Animation course",
+  "main": "gulpfile.js",
+  "author": "Donovan Hutchinson, CSSAnimation.rocks",
+  "license": "MIT",
+  "homepage": "https://cssanimation.rocks",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/donovanh/sp-examples.git"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.5.0",
+    "browser-sync": "^2.17.0",
+    "del": "^1.2.0",
+    "gulp": "^3.8.11",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-size": "^1.2.1",
+    "postcss-sorting": "^1.7.0",
+    "precss": "^1.4.0"
+  }
+}
