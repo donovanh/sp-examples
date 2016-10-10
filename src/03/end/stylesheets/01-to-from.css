@@ -1,0 +1,24 @@
+.demo {
+  animation-name: tada;
+  animation-delay: .5s;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  background: #3991AE;
+  color: #fff;
+  font-size: 6rem;
+  opacity: 0;
+  overflow: hidden;
+  padding: 2rem 4rem;
+  position: relative;
+  text-align: center;
+}
+
+@keyframes tada {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
