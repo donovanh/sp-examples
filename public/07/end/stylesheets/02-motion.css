@@ -18,14 +18,14 @@
 }
 
 .circle {
-  -webkit-animation: spin 2s linear infinite;
-          animation: spin 2s linear infinite;
-  background: rgba(255,255,255,0.3);
+  -webkit-animation: spin 12s linear infinite;
+          animation: spin 12s linear infinite;
+  background: rgba(255,255,255,0.1);
   border-radius: 50%;
   height: 200vw;
   left: -50%;
   position: absolute;
-  top: 40%;
+  top: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   width: 200%;
