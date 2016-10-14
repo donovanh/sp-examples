@@ -5,8 +5,8 @@
           animation-duration: 1s;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
-  -webkit-animation-name: tada;
-          animation-name: tada;
+  -webkit-animation-name: fade-in;
+          animation-name: fade-in;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
   background: #3991AE;
@@ -19,7 +19,7 @@
   text-align: center;
 }
 
-@-webkit-keyframes tada {
+@-webkit-keyframes fade-in {
   from {
     opacity: 0;
   }
@@ -28,7 +28,7 @@
   }
 }
 
-@keyframes tada {
+@keyframes fade-in {
   from {
     opacity: 0;
   }

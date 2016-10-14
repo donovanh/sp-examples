@@ -1,0 +1,26 @@
+.demo-input {
+  background: #eee;
+  border: 4px solid #aaa;
+  font-size: 4rem;
+  padding: 1rem;
+  -webkit-transition: background .4s ease-out,
+              border .2s ease-out,
+              -webkit-transform .4s cubic-bezier(.76,-0.48,.53,1.31);
+  transition: background .4s ease-out,
+              border .2s ease-out,
+              -webkit-transform .4s cubic-bezier(.76,-0.48,.53,1.31);
+  transition: background .4s ease-out,
+              border .2s ease-out,
+              transform .4s cubic-bezier(.76,-0.48,.53,1.31);
+  transition: background .4s ease-out,
+              border .2s ease-out,
+              transform .4s cubic-bezier(.76,-0.48,.53,1.31),
+              -webkit-transform .4s cubic-bezier(.76,-0.48,.53,1.31);
+}
+
+.demo-input:focus {
+  background: #fff;
+  border: 4px solid #3991AE;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}

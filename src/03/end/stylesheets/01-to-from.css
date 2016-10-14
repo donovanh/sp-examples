@@ -1,5 +1,5 @@
 .demo {
-  animation-name: tada;
+  animation-name: fade-in;
   animation-delay: .5s;
   animation-fill-mode: forwards;
   animation-duration: 1s;
@@ -14,7 +14,7 @@
   text-align: center;
 }
 
-@keyframes tada {
+@keyframes fade-in {
   from {
     opacity: 0;
   }

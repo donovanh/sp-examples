@@ -1,0 +1,42 @@
+html {
+  background: url(../images/space.jpg);
+}
+
+body {
+  max-width: 100%;
+  width: 90%;
+  margin: 4rem auto;
+}
+
+.demo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.spacer {
+  background: rgba(255,255,255,.8);
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 4rem 2rem;
+  text-align: left;
+  width: 25%;
+
+  p {
+    color: #222;
+    font-size: 2rem;
+  }
+}
+
+.spacer:hover {
+  background: rgba(255,255,255,1);
+  padding: 4rem;
+}
+
+.spacer:hover p {
+  font-size: 2.5rem;
+}
+
+.spacer, .spacer * {
+  transition: all .4s ease-out;
+}

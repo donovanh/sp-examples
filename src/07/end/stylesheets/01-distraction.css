@@ -1,0 +1,47 @@
+.demo {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.content {
+  border-radius: 1rem;
+  margin: 2rem;
+  padding: 4rem 2rem;
+  text-align: left;
+
+  p {
+    color: #222;
+    font-size: 2rem;
+  }
+}
+
+button {
+  animation: dance 1s cubic-bezier(0,.77,.53,1.31) infinite;
+  background: #3991AE;
+  border: none;
+  color: #fff;
+  display: block;
+  font-size: 4rem;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+  position: relative;
+  text-align: center;
+}
+
+@keyframes dance {
+  0%, 10% {
+    transform: none;
+  }
+  25% {
+    transform: rotateZ(-20deg);
+  }
+  50% {
+    transform: rotateZ(20deg);
+  }
+  75% {
+    transform: rotateZ(-10deg);
+  }
+  90%, 100% {
+    transform: none;
+  }
+}

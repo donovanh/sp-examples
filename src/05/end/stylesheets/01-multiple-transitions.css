@@ -3,11 +3,13 @@
   border: 4px solid #aaa;
   font-size: 4rem;
   padding: 1rem;
-  -webkit-transition: border .2s ease-out;
-  transition: border .2s ease-out;
+  transition: background .4s ease-out,
+              border .2s ease-out,
+              transform .4s cubic-bezier(.76,-0.48,.53,1.31);
 }
 
 .demo-input:focus {
   background: #fff;
   border: 4px solid #3991AE;
+  transform: scale(1.5);
 }

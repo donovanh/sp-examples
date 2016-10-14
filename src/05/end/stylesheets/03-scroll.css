@@ -1,0 +1,45 @@
+.demo {
+  width: 80rem;
+}
+
+.spacer {
+  background: rgba(255,255,255,.1);
+  border-radius: 1rem;
+  color: #fff;
+  font-size: 4rem;
+  height: 90vh;
+  line-height: 80vh;
+  margin: 4rem 0;
+  width: 100%;
+}
+
+button {
+  border-radius: 1rem;
+  border: 1px solid #fff;
+  color: #fff;
+  background: #3991AE;
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+.animated {
+  animation: dance 1s cubic-bezier(0,.77,.53,1.31) infinite;
+}
+
+@keyframes dance {
+  0%, 10% {
+    transform: none;
+  }
+  25% {
+    transform: rotateZ(-20deg);
+  }
+  50% {
+    transform: rotateZ(20deg);
+  }
+  75% {
+    transform: rotateZ(-10deg);
+  }
+  90%, 100% {
+    transform: none;
+  }
+}
