@@ -3,14 +3,17 @@ html {
 }
 
 body {
+  margin: 4rem auto;
   max-width: 100%;
   width: 90%;
-  margin: 4rem auto;
 }
 
 .demo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
 }
 
@@ -21,17 +24,23 @@ body {
   padding: 4rem 2rem;
   text-align: left;
   width: 25%;
+}
 
-  p {
-    color: #222;
-    font-size: 2rem;
-  }
+.spacer p {
+  color: #222;
+  font-size: 2rem;
 }
 
 .spacer:hover {
   background: rgba(255,255,255,1);
-  transform: scale(1.15);
+  padding: 4rem;
 }
+
+.spacer:hover p {
+  font-size: 2.5rem;
+}
+
 .spacer, .spacer * {
+  -webkit-transition: all .4s ease-out;
   transition: all .4s ease-out;
 }

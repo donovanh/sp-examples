@@ -30,13 +30,8 @@ body {
 
 .spacer:hover {
   background: rgba(255,255,255,1);
-  padding: 4rem;
+  transform: scale(1.15);
 }
-
-.spacer:hover p {
-  font-size: 2.5rem;
-}
-
 .spacer, .spacer * {
   transition: all .4s ease-out;
 }

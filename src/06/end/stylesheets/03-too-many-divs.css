@@ -1,0 +1,64 @@
+.demo {
+  margin: 0 auto;
+  max-width: 80rem;
+}
+
+.circle {
+  animation: spin 90s linear infinite;
+  background: rgba(255,255,255,0.1);
+  border-radius: 50%;
+  height: 200vw;
+  left: -50%;
+  position: absolute;
+  top: 50%;
+  transform: translateX(-50%);
+  width: 200%;
+}
+
+.one {
+  transform-origin: 48% 47%;
+  animation-delay: .2s;
+  width: 190%;
+}
+
+.two {
+  transform-origin: 48.5% 47.5%;
+  animation-delay: .3s;
+  width: 195%;
+}
+
+.three {
+  transform-origin: 49% 48%;
+  animation-delay: .4s;
+  width: 200%;
+}
+
+.four {
+  transform-origin: 49.5% 48.5%;
+  animation-delay: .5s;
+  width: 205%;
+}
+
+.five {
+  transform-origin: 50% 49%;
+  animation-delay: .6s;
+  width: 210%;
+}
+
+.six {
+  transform-origin: 50.5% 49.5%;
+  animation-delay: .7s;
+  width: 215%;
+}
+
+@keyframes spin {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateZ(180deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
