@@ -3,9 +3,9 @@
   border: 4px solid #aaa;
   font-size: 4rem;
   padding: 1rem;
-  transition: background .4s ease-out,
-              border .2s ease-out,
-              transform .4s cubic-bezier(.76,-0.48,.53,1.31);
+  transition: background .4s,
+              border .2s,
+              transform .4s cubic-bezier(.85,-0.4,.29,1.44);
 }
 
 .demo-input:focus {

@@ -20,15 +20,29 @@
 }
 
 .demo span {
+
   display: inline-block;
   transform: scale(1);
-}
-
-.text-part-1 {
 
 }
 
-.text-part-2 {
+.demo .text-part-2 {
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

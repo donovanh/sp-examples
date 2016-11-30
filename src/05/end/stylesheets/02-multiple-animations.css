@@ -1,13 +1,10 @@
 .demo {
-  animation: setup 2s ease-out forwards,
-             dance 1s 2s cubic-bezier(0,.77,.53,1.31) infinite;
+  animation: setup 2s ease-out,
+             dance 1s 2s cubic-bezier(0,.8,.5,1.5) infinite;
   background: #3991AE;
   color: #fff;
   font-size: 6rem;
-  opacity: 0;
-  overflow: hidden;
   padding: 2rem 4rem;
-  position: relative;
   text-align: center;
 }
 

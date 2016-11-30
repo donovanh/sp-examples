@@ -8,16 +8,8 @@
 }
 
 .demo:before {
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-name: show-background;
-          animation-name: show-background;
-  -webkit-animation-timing-function: cubic-bezier(0,.9,.3,1);
-          animation-timing-function: cubic-bezier(0,.9,.3,1);
+  -webkit-animation: show-background 1s .5s cubic-bezier(0,.9,.3,1) forwards;
+          animation: show-background 1s .5s cubic-bezier(0,.9,.3,1) forwards;
   background: #3991AE;
   bottom: 0;
   content: "";
@@ -30,18 +22,17 @@
 }
 
 .demo span {
+  -webkit-animation: pop-in .5s 1.4s cubic-bezier(0,.8,.4,1.25) forwards;
+          animation: pop-in .5s 1.4s cubic-bezier(0,.8,.4,1.25) forwards;
   display: inline-block;
   opacity: 0;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
-.text-part-1 {
-  -webkit-animation: pop-in .5s 1.4s cubic-bezier(0,.81,.37,1.26) forwards;
-          animation: pop-in .5s 1.4s cubic-bezier(0,.81,.37,1.26) forwards;
-}
-
-.text-part-2 {
-  -webkit-animation: pop-in .6s 1.6s cubic-bezier(0,.81,.55,1.85) forwards;
-          animation: pop-in .6s 1.6s cubic-bezier(0,.81,.55,1.85) forwards;
+.demo .text-part-2 {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
 }
 
 @-webkit-keyframes show-background {
@@ -54,8 +45,8 @@
             transform: translate(0, 95%);
   }
   100% {
-    -webkit-transform: translate(0);
-            transform: translate(0);
+    -webkit-transform: none;
+            transform: none;
   }
 }
 
@@ -69,8 +60,8 @@
             transform: translate(0, 95%);
   }
   100% {
-    -webkit-transform: translate(0);
-            transform: translate(0);
+    -webkit-transform: none;
+            transform: none;
   }
 }
 

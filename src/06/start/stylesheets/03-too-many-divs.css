@@ -1,10 +1,14 @@
+body {
+  overflow: hidden;
+}
+
 .demo {
   margin: 0 auto;
   max-width: 80rem;
 }
 
 .circle {
-  animation: spin 90s linear infinite;
+  animation: spin 2s linear infinite;
   background: rgba(255,255,255,0.1);
   border-radius: 50%;
   height: 200vw;
@@ -17,37 +21,43 @@
 
 .one {
   transform-origin: 48% 47%;
-  animation-delay: .2s;
+  animation-delay: .15s;
+  animation-duration: 3s;
   width: 190%;
 }
 
 .two {
   transform-origin: 48.5% 47.5%;
-  animation-delay: .3s;
+  animation-delay: .32s;
+  animation-duration: 3.5s;
   width: 195%;
 }
 
 .three {
   transform-origin: 49% 48%;
   animation-delay: .4s;
+  animation-duration: 5.9s;
   width: 200%;
 }
 
 .four {
   transform-origin: 49.5% 48.5%;
-  animation-delay: .5s;
+  animation-delay: .48s;
+  animation-duration: 2.5s;
   width: 205%;
 }
 
 .five {
   transform-origin: 50% 49%;
-  animation-delay: .6s;
+  animation-delay: .65s;
+  animation-duration: 3.5s;
   width: 210%;
 }
 
 .six {
   transform-origin: 50.5% 49.5%;
-  animation-delay: .7s;
+  animation-delay: .71s;
+  animation-duration: 4s;
   width: 215%;
 }
 

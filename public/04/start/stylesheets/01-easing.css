@@ -71,3 +71,11 @@ h2, h3 {
   margin-top: 2rem;
   text-align: left;
 }
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}

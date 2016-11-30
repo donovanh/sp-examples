@@ -8,11 +8,7 @@
 }
 
 .demo:before {
-  animation-name: show-background;
-  animation-fill-mode: forwards;
-  animation-duration: 1s;
-  animation-delay: .5s;
-  animation-timing-function: cubic-bezier(0,.9,.3,1);
+  animation: show-background 1s .5s cubic-bezier(0,.9,.3,1) forwards;
   background: #3991AE;
   content: "";
   position: absolute;
@@ -24,16 +20,14 @@
 }
 
 .demo span {
+  animation: pop-in .5s 1.4s cubic-bezier(0,.8,.4,1.25) forwards;
   display: inline-block;
+  transform: scale(1);
   opacity: 0;
 }
 
-.text-part-1 {
-  animation: pop-in .5s 1.4s cubic-bezier(0,.81,.37,1.26) forwards;
-}
-
-.text-part-2 {
-  animation: pop-in .6s 1.6s cubic-bezier(0,.81,.55,1.85) forwards;
+.demo .text-part-2 {
+  animation-delay: 1.6s;
 }
 
 @keyframes show-background {
@@ -44,7 +38,7 @@
     transform: translate(0, 95%);
   }
   100% {
-    transform: translate(0);
+    transform: none;
   }
 }
 

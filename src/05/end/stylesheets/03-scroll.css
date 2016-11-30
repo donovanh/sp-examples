@@ -23,7 +23,7 @@ button {
 }
 
 .animated {
-  animation: dance 1s cubic-bezier(0,.77,.53,1.31) infinite;
+  animation: dance 1s cubic-bezier(0,.8,.5,1.5) infinite;
 }
 
 @keyframes dance {
